@@ -6,12 +6,12 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <header className="w-full h-24 bg-customGray font-mono px-24 flex justify-between">
+        <header className="w-full h-24 bg-customGray font-mono px-4 md:px-8 lg:px-24 flex justify-between items-center">
             <div className='flex items-center gap-4'>
                 <Image src={Logo} alt='logo Voice up' width={50} height={50} priority />
-                <h1 className='font-semibold font-header text-gray-300 text-2xl'>VOICE UP</h1>
+                <h1 className='font-semibold font-header text-gray-300 text-xl md:text-2xl'>VOICE UP</h1>
             </div>
-            <div className='text-gray-300 text-2xl font-bold flex items-center gap-6'>
+            <div className='text-gray-300 text-xl md:text-2xl font-bold flex items-center gap-4 md:gap-6'>
                 <Link href="https://www.instagram.com/afernandacunha_/" target='_blank'>
                     <SlSocialInstagram />
                 </Link>
