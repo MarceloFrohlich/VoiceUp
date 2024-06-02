@@ -38,7 +38,7 @@ const SobreMim: React.FC = () => {
                             campanhas de tráfego pago.
                         </p>
                     </div>
-                    <p className="italic">“Tráfego pago é colocar o anúncio certo, na frente da pessoa certa, na hora certa”.
+                    <p className="italic mx-3">“Tráfego pago é colocar o anúncio certo, na frente da pessoa certa, na hora certa”.
                         <span className="font-bold ml-3">Pedro Sobral</span></p>
                 </div>
             </div>
