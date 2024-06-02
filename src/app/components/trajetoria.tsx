@@ -3,7 +3,7 @@ const Trajetoria: React.FC = () => {
         <section className="bg-slate-200 flex flex-col items-center w-full" data-aos="fade-up">
             <h1 className="text-4xl font-bold pt-10 text-lime-700">Minha Trajetória</h1>
 
-            <div className="flex flex-col gap-6 w-2/3 text-justify py-10">
+            <div className="flex flex-col gap-6 mx-3 md:w-2/3 text-justify py-10">
                 <div className="text-lg">
                     <p>Iniciei minha carreira no marketing digital como social media em 2016.
                         Na época, eu nem sabia que o que fazia poderia se tornar uma carreira, muito menos o

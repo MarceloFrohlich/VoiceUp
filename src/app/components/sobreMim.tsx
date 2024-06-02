@@ -1,16 +1,16 @@
 const SobreMim: React.FC = () => {
     return (
-        <section className="bg-slate-200 flex items-center w-full" data-aos="fade-up">
+        <section className="bg-slate-200 flex flex-col lg:flex-row items-center w-full">
 
-            <div data-aos="fade-up" className="w-1/2 h-full flex justify-center">
-                <div className="w-2/3 h-[600px] bg-fernandaBg bg-cover bg-center">
+            <div data-aos="fade-up" className="lg:w-1/2 w-full h-full md:flex justify-center">
+                <div className="w-full lg:w-2/3 h-[600px] bg-fernandaBg bg-cover bg-center">
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="w-1/2">
-                <h1 className="text-4xl font-bold pt-10 text-lime-700">Sobre Mim</h1>
-                <div className="flex flex-col gap-6 w-2/3 text-justify py-10">
-                    <div className="text-lg">
+            <div data-aos="fade-up" className="w-full lg:w-1/2">
+                <h1 className="text-4xl text-center lg:text-left font-bold pt-10 text-lime-700">Sobre Mim</h1>
+                <div className="flex flex-col gap-6 w-full lg:w-2/3 text-justify py-10">
+                    <div className="text-lg mx-3">
                         <p>
                             Olá! Sou Fernanda Cunha Fröhlich, especialista em marketing digital com uma
                             trajetória diversificada e rica em experiências. Minha paixão por contar histórias e
@@ -20,7 +20,7 @@ const SobreMim: React.FC = () => {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-3"> 
                         <p>
                             Formada em Gestão Hospitalar e com certificações em Assistente de Marketing e
                             Vendas, Fotografia e Organização de Eventos, eu me reinventei ao longo dos anos
@@ -30,7 +30,7 @@ const SobreMim: React.FC = () => {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="mx-3">
                         <p>
                             Além disso, tenho orgulho de ser certificada em Meta Ads pela Comunidade Sobral e
                             ser aluna de Pedro Sobral, um dos maiores gestores de tráfego do Brasil. Essa
